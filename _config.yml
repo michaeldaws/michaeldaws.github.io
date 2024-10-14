@@ -8,7 +8,7 @@ url: "https://michaeldaws.github.io" # the base hostname & protocol for your sit
 markdown: kramdown
 
 # Theme settings
-theme: minima # or any other Jekyll theme you are using
+theme: minimal-mistakes # or any other Jekyll theme you are using
 
 # Exclude files from processing
 exclude:
@@ -21,3 +21,4 @@ include:
 # Additional configuration options
 plugins:
   - jekyll-feed
+  - jekyll-include-cache

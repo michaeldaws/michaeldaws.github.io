@@ -1,0 +1,23 @@
+# Site settings
+title: Michael Rory Daws
+description: The web arena of Michael Rory Daws, professor and clown
+baseurl: "" # the subpath of your site, e.g. /blog; leave empty for the root directory
+url: "https://michaeldaws.github.io" # the base hostname & protocol for your site
+
+# Markdown settings
+markdown: kramdown
+
+# Theme settings
+theme: minima # or any other Jekyll theme you are using
+
+# Exclude files from processing
+exclude:
+  - README.md
+
+# Include files for processing
+include:
+  - _pages
+
+# Additional configuration options
+plugins:
+  - jekyll-feed

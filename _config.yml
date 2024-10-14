@@ -3,18 +3,45 @@ title: Michael Rory Daws
 description: The web arena of Michael Rory Daws, professor and clown
 baseurl: "" # the subpath of your site, e.g. /blog; leave empty for the root directory
 url: "https://michaeldaws.github.io" # the base hostname & protocol for your site
+locale: "en-NO"
+paginate: 5
+paginate_path: "/page:num/"
+timezone: "Europe/Oslo"
+
+# Author settings
+author:
+  name: "Michael Rory Daws"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Your bio"
+  location: "Your Location"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/michaeldaws"
+    - label: "Twitter"
+      url: "https://twitter.com/yourusername"
+
+
+# Optional social links
+social:
+  - title: "GitHub"
+    url: "https://github.com/michaeldaws"
+  - title: "Twitter"
+    url: "https://twitter.com/yourusername"
 
 # Markdown settings
 markdown: kramdown
 
 # Theme settings
-theme: minimal-mistakes # or any other Jekyll theme you are using
+theme: minimal-mistakes-jekyll # or any other Jekyll theme you are using
 
 # Exclude files from processing
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
   - README.md
 
-# Include files for processing
+# Include in processing
 include:
   - _pages
 
@@ -22,3 +49,22 @@ include:
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # if using remote theme method add:
+  - jekyll-remote-theme
+
+# Enable Jekyll SEO tag
+# See https://github.com/jekyll/jekyll-seo-tag
+jekyll_seo_tag:
+  social:
+    name: "Minimal Mistakes"
+    image: /assets/images/your-logo.png
+    twitter: yourusername
+    facebook: yourusername
+
+
+
+
+
+

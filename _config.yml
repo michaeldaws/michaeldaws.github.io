@@ -32,7 +32,8 @@ social:
 markdown: kramdown
 
 # Theme settings
-theme: minimal-mistakes-jekyll # or any other Jekyll theme you are using
+# theme: minimal-mistakes-jekyll # or any other Jekyll theme you are using
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Exclude files from processing
 exclude:
